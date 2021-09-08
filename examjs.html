@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExamJs</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="examjs.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="examjs.js"></script>
+    
+</head>
+<body>
+<div id="mainHeader">
+    <ul id="tabMenu"></ul>
+</div>
+<div id="secondHeader">
+
+    <h1>Все книги:</h1>
+
+    <button id="newBookBtn">Добавить книгу</button>
+
+</div>
+
+
+<div id="modalHeader">
+
+    <div id="book-search-widget">
+        <label for="tagsInp">Поиск: </label>
+        <input id="tagsInp">
+        <button id="tagsBtn">Найти!</button>
+    </div>
+       
+
+    <div id="book-sort-widget">
+        <label for="sortBy">Сортировать по:</label>
+        <select name="speed" id="sortBy">
+          <option>Названию</option>
+          <option>Дате выпуска</option>
+          <option selected="selected">Идентификатору</option>
+          <option>Автору</option>
+          <option>Доступности</option>
+        </select>
+
+
+        <button id="sortBtn">Отсортировать</button>
+    </div>
+
+</div>
+<div id="main">
+
+
+
+
+
+<div id="dialogWind">
+    
+    <h1>Добавить книгу...</h1>
+
+    <div id="formMain">
+
+        <p><b>Идентификатор:</b><br>
+            <input class="formDialog" id="formId" type="text" size="40">
+    
+            <p><b>Название:</b><br>
+                <input class="formDialog" id="formBookName" type="text" size="40">
+            
+                <p><b>Дата издательства:</b><br>
+                    <input class="formDialog" id="formBookDate" type="text" size="40">
+    
+                    <p><b>Страниц:</b><br>
+                        <input class="formDialog" id="formBookLenght" type="text" size="40">
+    
+                        <p><b>Автор:</b><br>
+                            <input class="formDialog" id="formBookauthor" type="text" size="40">
+    
+                            <p><b>Издатель:</b><br>
+                                <input class="formDialog" id="formBookIzd" type="text" size="40">
+
+    </div>
+    
+
+    <div id="buttonsBook">
+    <button id="cancelBtn">Отмена</button> <button id="saveBookBtn">Сохранить</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+  
+    <table class="GeneratedTable">
+        <thead>
+          <tr>
+            <th> <button id="btnDel">Del</button> Идентификатор</th>
+            <th>Название</th>
+            <th>Автор</th>
+            <th>Год выпуска</th>
+            <th>Издательство</th>
+            <th>Кол-во страниц</th>
+          </tr>
+         
+        </thead>
+        <tbody>
+         
+<!-- +w -->
+         
+
+      
+        </tbody>
+      </table>
+
+
+</div>
+    
+</body>
+</html>

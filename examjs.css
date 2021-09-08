@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Mainhead */
+
+#mainHeader {
+    width: 96%;
+    height: 100px;
+    background-color: rgb(158, 158, 158);
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#secondHeader {
+    width: 96%;
+    height: 80px;
+    background-color: rgb(158, 158, 158);
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#secondHeader h1 {
+    color: white;
+}
+#secondHeader #newBookBtn {
+    width: 150px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(94, 94, 94);
+}
+
+
+/* Obves */
+#modalHeader {
+    width: 96%;
+    height: 60px;
+    background-color: rgb(158, 158, 158);
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+#main {
+    width: 96%;
+    height: 800px;
+    background-color: rgb(211, 211, 211);
+    margin: 10px auto;
+}
+
+#book-search-widget #tagsInp {
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+}
+#book-search-widget #tagsBtn {
+    width: 50px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(94, 94, 94);
+}
+#book-search-widget label {
+    color: rgb(255, 255, 255);
+}
+
+
+/* sortirovka */
+#book-sort-widget #sortBy {
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(94, 94, 94);
+}
+#book-sort-widget #sortBtn {
+    width: 150px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(94, 94, 94);
+}
+#book-sort-widget label {
+    color: rgb(255, 255, 255);
+}
+
+/* Таблица */
+
+
+table.GeneratedTable {
+    width: 100%;
+    margin: auto;
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+  }
+  
+  table.GeneratedTable td, table.GeneratedTable th {
+    padding: 3px;
+    color:  rgb(94, 94, 94);
+    border: none;
+  }
+  
+  table.GeneratedTable thead {
+    background-color:rgb(158, 158, 158);
+  }
+  
+
+  table.GeneratedTable button {
+    width: 50px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(65, 65, 65);
+  }
+    
+  
+
+  /* Dialog */ 
+
+  #dialogWind {
+      display: none;
+      width: 500px;
+      height: 350px;
+      background-color: gray;
+      position: fixed;
+      margin-top: 200px;
+      margin-left: 500px;
+      color:  rgb(207, 207, 207);
+  }
+  #dialogWind h1{
+     margin: 0px 10px;
+     position: absolute;
+  }
+  .formDialog {
+    width: 200px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    color:  rgb(94, 94, 94);
+  }
+
+  #formMain {
+      position: absolute;
+      margin: 70px 10px;
+  }
+  #buttonsBook {
+      position: absolute;
+      margin: 300px;
+      width: 200px; 
+  }
+  #buttonsBook button {
+    width: 150px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(94, 94, 94);
+  }
+
+  
